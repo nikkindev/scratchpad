@@ -19,6 +19,7 @@ library(rsconnect)
 fluidPage(
   titlePanel("COVID-19 Visualization"),
   uiOutput("tab"),
+  textOutput("date"),
   leafletOutput("mymap", width = "90%", height = 800),
   p(),
   
